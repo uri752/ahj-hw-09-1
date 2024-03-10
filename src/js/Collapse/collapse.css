@@ -1,0 +1,42 @@
+
+.collapse-wrapper {
+    min-height: 50px;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .show-collapse {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    background-color: #037cd3;
+    border-radius: 5px;
+  }
+  
+  .content-collapse {
+    max-height: 0;
+    padding: 0.55rem;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    opacity: 0;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+  }
+  
+  .content-collapse_visible {
+    max-height: 250px;
+    opacity: 1;
+  }
+  
+  .copy-collapse {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+  }
+  
+  
